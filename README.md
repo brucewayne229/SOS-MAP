@@ -9,7 +9,7 @@
 - MongoDB để làm cơ sở dữ liệu
 - Reactjs để làm giao diện
 - Nodejs dùng để thiết kế , xây dựng một ứng dụng mạng mở rộng
-- Tailwind để hỗ trợ làm giao diện 
+- Tailwind để hỗ trợ làm thiết kế giao diện 
 ## Thiết kế cơ sở dữ liệu
 
 
