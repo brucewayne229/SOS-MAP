@@ -61,7 +61,7 @@
 ## Thiết kế cơ sở dữ liệu
 - PersonSchema
 - ProductSchema
-
+```
 const PersonSchema = mongoose.Schema({
   name: {
     type: String,
@@ -75,8 +75,8 @@ const PersonSchema = mongoose.Schema({
     required: true
   }, 
   avatar: String,
-  status: String,//Trạng thái là người gửi hay nhận?
-  foreignid: String,//Id chung với sản phẩm và người nhận(gửi)
+  status: String,
+  foreignid: String,
 }, {
   timestamp: true
 });
@@ -93,6 +93,6 @@ const ProductSchema = mongoose.Schema({
 }, {
   timestamp: true
 });
-
+```
 
 
