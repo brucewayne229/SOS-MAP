@@ -32,8 +32,25 @@
         <br />
        Reactjs
     </td>
+    <td align="center" width="160">
+       <img src="https://img.shields.io/badge/MongoDB-white?style=for-the-badge&logo=mongodb&logoColor=4EA94B" width="60" />
+        <br />
+       MongoDB
+    </td>
+    <td align="center" width="160">
+       <img src="https://img.shields.io/badge/MongoDB-white?style=for-the-badge&logo=mongodb&logoColor=4EA94B" width="60" />
+        <br />
+       MongoDB
+    </td>
+     <td align="center" width="160">
+       <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" width="60" />
+        <br />
+       Tailwind CSS
+    </td>
   </tr>
   </table>
+  
+  
 - ExpressJS để tạo web app
 - MongoDB để làm cơ sở dữ liệu
 - Reactjs để làm giao diện
