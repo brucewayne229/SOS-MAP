@@ -59,9 +59,24 @@
 - Tailwind để hỗ trợ làm thiết kế giao diện 
 - Joi để validate dữ liệu
 ## Thiết kế cơ sở dữ liệu
+- UserSchema
 - PersonSchema
 - ProductSchema
-```
+```ruby
+const UserSchema = mongoose.Schema({
+  username: {
+    type: String,
+    required: true
+  },
+  password: {
+    type: String,
+    require: true
+  }
+}, {
+  timestamp: true
+});
+
+
 const PersonSchema = mongoose.Schema({
   name: {
     type: String,
