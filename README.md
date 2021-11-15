@@ -5,6 +5,35 @@
 - Là khách, tôi muốn tìm kiếm số điện thoại và địa chỉ của người cho, người nhận
 - Là người dùng, tôi muốn tạo mặt hàng cho và mặt hàng nhận
 ## Stack công nghệ
+<table>
+  <tr>
+    <td align="center" width="160">
+          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" width="60" />
+        <br />
+        HTML5
+    </td>
+    <td align="center" width="160">
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" width="60" />
+        <br />
+       CSS3
+    </td>
+    <td align="center" width="160">
+     <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" width="60" />
+        <br />
+        Javascript
+    </td>
+    <td align="center" width="160">
+     <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" width="60" />
+        <br />
+        Nodejs
+    </td>
+    <td align="center" width="160">
+       <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" width="60" />
+        <br />
+       Reactjs
+    </td>
+  </tr>
+  </table>
 - ExpressJS để tạo web app
 - MongoDB để làm cơ sở dữ liệu
 - Reactjs để làm giao diện
