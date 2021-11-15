@@ -12,5 +12,40 @@
 - Tailwind để hỗ trợ làm thiết kế giao diện 
 - Joi để validate dữ liệu
 ## Thiết kế cơ sở dữ liệu
+- PersonSchema
+- ProductSchema
+
+const PersonSchema = mongoose.Schema({
+  name: {
+    type: String,
+    required: true
+  },
+  address: [
+    { type: String, required: true}
+  ],
+  phoneNumber: {
+    type: number,
+    required: true
+  }, 
+  avatar: String,
+  status: String,//Trạng thái là người gửi hay nhận?
+  foreignid: String,//Id chung với sản phẩm và người nhận(gửi)
+}, {
+  timestamp: true
+});
+
+
+const ProductSchema = mongoose.Schema({
+  id: String,
+  foreignid: String,
+  products:[
+    {type: String, count: Number},
+    {type: String, count: Number},
+
+  ]
+}, {
+  timestamp: true
+});
+
 
 

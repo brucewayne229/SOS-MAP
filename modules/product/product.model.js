@@ -5,6 +5,8 @@ const ProductSchema = mongoose.Schema({
   foreignid: String,
   products:[
     {type: String, count: Number},
+    {type: String, count: Number},
+
   ]
 }, {
   timestamp: true
