@@ -60,9 +60,7 @@
 - Joi để validate dữ liệu
 ## Thiết kế cơ sở dữ liệu
 - UserSchema
-- PersonSchema
-- ProductSchema
-```ruby
+- ```ruby
 const UserSchema = mongoose.Schema({
   username: {
     type: String,
@@ -75,8 +73,9 @@ const UserSchema = mongoose.Schema({
 }, {
   timestamp: true
 });
-
-
+```
+- PersonSchema
+```ruby
 const PersonSchema = mongoose.Schema({
   name: {
     type: String,
@@ -95,8 +94,9 @@ const PersonSchema = mongoose.Schema({
 }, {
   timestamp: true
 });
-
-
+```
+- ProductSchema
+```ruby
 const ProductSchema = mongoose.Schema({
   id: String,
   foreignid: String,
