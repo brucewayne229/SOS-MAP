@@ -60,7 +60,7 @@
 - Joi để validate dữ liệu
 ## Thiết kế cơ sở dữ liệu
 - UserSchema
-- ```ruby
+```ruby
 const UserSchema = mongoose.Schema({
   username: {
     type: String,
@@ -73,6 +73,7 @@ const UserSchema = mongoose.Schema({
 }, {
   timestamp: true
 });
+```
 
 - PersonSchema
 ```ruby
