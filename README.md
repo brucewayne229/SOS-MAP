@@ -73,7 +73,7 @@ const UserSchema = mongoose.Schema({
 }, {
   timestamp: true
 });
-```
+
 - PersonSchema
 ```ruby
 const PersonSchema = mongoose.Schema({
