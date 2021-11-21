@@ -8,7 +8,8 @@ const UserSchema = mongoose.Schema({
   password: {
       type: String,
       require: true
-  }
+  },
+  role:"admin"
 },{
     timestamp: true
 });

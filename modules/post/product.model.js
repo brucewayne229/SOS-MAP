@@ -13,7 +13,7 @@ const PostSchema = mongoose.Schema({
   imageUrls: [],
   status: ['',''], // Trạng thái kiểm duyệt bài
   isCancel: false,
-  isFinished: false 
+  isFinished: false
 });
 
 const PostModel = mongoose.model('Post', PostSchema);
