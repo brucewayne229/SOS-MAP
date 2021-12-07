@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>Create and style clusters</title>
+<title>SOS Map</title>
 <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
 <script src="https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.9/dist/goong-js.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.9/dist/goong-js.css" rel="stylesheet" />
@@ -19,9 +19,20 @@
     var map = new goongjs.Map({
         container: 'map',
         style: 'https://tiles.goong.io/assets/goong_map_web.json',
-        center: [-103.59179687498357, 40.66995747013945],
-        zoom: 3
+        center: [108.212, 16.068],
+        zoom: 5
     });
+
+    // Lấy vị trí của người dùng trên bản đồ.
+    var getLocal = new goongjs.GeolocateControl(
+      {
+        positionOptions: {
+          enableHighAccuracy:false,
+          timeout:6000
+        },
+        trackUserLocation: false,
+        showUserLocation: true
+      })
 
     map.on('load', function () {
         // Add a new source from our GeoJSON data and
